@@ -1,0 +1,11 @@
+from lendarios import lendarios
+arceus=lendarios("Arceus","Normal",80,60,40,"Cosmic power","Gravity","Earth power","Seismic Toss",50,0,"Grama")
+arceus.atacar()
+arceus.aumentar_velocidade()
+arceus.rec_vida()
+arceus.mostrar_vida_do_inimigo()
+arceus.mostrar_vida_pokemon()
+print("-"*30)
+arceus.mostrar_atributos()
+arceus.muda_golpe()
+arceus.atacar()
